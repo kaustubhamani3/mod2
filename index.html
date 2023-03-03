@@ -158,6 +158,44 @@
           </div>
         </div>
 
+        <!-- Form -->
+        <!-- Your code here... -->
+        <style>
+          .form-label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+          }
+          
+          .form-input {
+            display: inline-block;
+            width: 200px;
+          }
+          </style>
+          
+          <div style="text-align: center;">
+            <form action="https://formspree.io/f/mrgvkybk" method="POST">
+              <label class="form-label" for="name">Name:</label>
+              <input class="form-input" type="text" id="name" name="name" required><br>
+          
+              <label class="form-label" for="email">Email:</label>
+              <input class="form-input" type="email" id="email" name="_replyto" required><br>
+          
+              <label class="form-label" for="phone">Phone:</label>
+              <input class="form-input" type="tel" id="phone" name="phone" required><br>
+          
+              <label class="form-label" for="requirement">Requirement:</label><br>
+              <textarea id="requirement" name="requirement" rows="4" cols="50" required></textarea><br>
+          
+              <input type="hidden" name="_subject" value="New Form Submission">
+              <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html"><br>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    
+                  
+
         <!-- Footer -->
         <!-- Your code here... -->
       <div class="container">
